@@ -105,13 +105,21 @@
             color: #0f4c75;
         }
         @media (max-width: 768px) {
+            .full-content {
+                margin: 0 auto;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+            }
             .sidebar {
                 position: static;
                 width: 100%;
                 height: auto;
+                padding: 1.5rem;
             }
             .content-area {
                 margin-left: 0;
+                padding: 1.5rem;
             }
             .resume-header {
                 flex-direction: column;
@@ -135,7 +143,7 @@
 
         <!-- Contact Information -->
         <div class="contact-info">
-            <p><i class="fas fa-envelope"></i> <span style='margin-left:10px'> jobaer.jhs@gmail.com </span></p>
+            <p><i class="fas fa-envelope"></i> <span style='margin-left:10px'> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c8a2a7aaa9adbae6a2a0bb88afa5a9a1a4e6aba7a5">[email&#160;protected]</a> </span></p>
             <p><i class="fas fa-phone"></i> <span style='margin-left:10px'> 01624655288 </span></p>
             <p><i class="fas fa-map-marker-alt"></i> <span style='margin-left:10px'> Khilkhet, Dhaka </span></p>
         </div>
@@ -145,84 +153,81 @@
         </button>
 
         <div class="mb-8">
-    <h3 class="text-xl font-semibold mb-4">Skills</h3>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div class="space-y-2">
-            <h4 class="font-medium text-white">Technical Skills</h4>
-            <ul class="space-y-2">
-                <li class="flex items-center">
-                    <i class="fas fa-check-circle mr-2 text-blue-200"></i>
-                    Odoo ERP Development
-                </li>
-                <li class="flex items-center">
-                    <i class="fas fa-check-circle mr-2 text-blue-200"></i>
-                    Python (Django, Flask)
-                </li>
-                <li class="flex items-center">
-                    <i class="fas fa-check-circle mr-2 text-blue-200"></i>
-                    React.js Frontend
-                </li>
-                <li class="flex items-center">
-                    <i class="fas fa-check-circle mr-2 text-blue-200"></i>
-                    Next.js Frontend
-                </li>
-                <li class="flex items-center">
-                    <i class="fas fa-check-circle mr-2 text-blue-200"></i>
-                    PostgreSQL
-                </li>
-                <li class="flex items-center">
-                    <i class="fas fa-check-circle mr-2 text-blue-200"></i>
-                    Docker & Linux
-                </li>
-                <li class="flex items-center">
-                    <i class="fas fa-check-circle mr-2 text-blue-200"></i>
-                    DevOps
-                </li>
-                <li class="flex items-center">
-                    <i class="fas fa-check-circle mr-2 text-blue-200"></i>
-                    Katalon Studio
-                </li>
-                <li class="flex items-center">
-                    <i class="fas fa-check-circle mr-2 text-blue-200"></i>
-                    JMeter
-                </li>
-            </ul>
+            <h3 class="text-xl font-semibold mb-4">Skills</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="space-y-2">
+                    <h4 class="font-medium text-white">Technical Skills</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2 text-blue-200"></i>
+                            Odoo ERP Development
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2 text-blue-200"></i>
+                            Python (Django, Flask)
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2 text-blue-200"></i>
+                            React.js Frontend
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2 text-blue-200"></i>
+                            Next.js Frontend
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2 text-blue-200"></i>
+                            PostgreSQL
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2 text-blue-200"></i>
+                            Docker & Linux
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2 text-blue-200"></i>
+                            DevOps
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2 text-blue-200"></i>
+                            Katalon Studio
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2 text-blue-200"></i>
+                            JMeter
+                        </li>
+                    </ul>
+                </div>
+                <div class="space-y-2">
+                    <h4 class="font-medium text-white">Professional Skills</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2 text-blue-200"></i>
+                            Time Management
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2 text-blue-200"></i>
+                            Communication
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2 text-blue-200"></i>
+                            Problem-Solving
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2 text-blue-200"></i>
+                            Team Collaboration
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle mr-2 text-blue-200"></i>
+                            Flexibility
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="space-y-2">
-            <h4 class="font-medium text-white">Professional Skills</h4>
-            <ul class="space-y-2">
-                <li class="flex items-center">
-                    <i class="fas fa-check-circle mr-2 text-blue-200"></i>
-                    Time Management
-                </li>
-                <li class="flex items-center">
-                    <i class="fas fa-check-circle mr-2 text-blue-200"></i>
-                    Communication
-                </li>
-                <li class="flex items-center">
-                    <i class="fas fa-check-circle mr-2 text-blue-200"></i>
-                    Problem-Solving
-                </li>
-                <li class="flex items-center">
-                    <i class="fas fa-check-circle mr-2 text-blue-200"></i>
-                    Team Collaboration
-                </li>
-                <li class="flex items-center">
-                    <i class="fas fa-check-circle mr-2 text-blue-200"></i>
-                    Flexibility
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-        </div>
-
-     
     </div>
 
     <!-- Content Area -->
     <div class="content-area">
-    	<div class="resume-header">
+        <div class="resume-header">
             <h1 class="text-3xl font-bold">Resume</h1>
             <div class="social-icons">
                 <a href="https://github.com/jobaer123s" target="_blank">
@@ -244,32 +249,32 @@
                 <h3 class="font-bold text-lg">Senior Software Engineer (Odoo - Python developer)</h3>
                 <p class="text-gray-600">Nov 2024 - Present | MIR Info Systems (Syncoria)</p>
                 <p class="mt-2">Leading R&D initiatives to enhance Odoo-based business
-			solutions.Developing custom Odoo modules to meet complex
-			business requirements.Optimizing Odoo performance and
-			troubleshooting system issues.Integrating third-party applications
-			and APIs into the Odoo framework.</p>
+                        solutions.Developing custom Odoo modules to meet complex
+                        business requirements.Optimizing Odoo performance and
+                        troubleshooting system issues.Integrating third-party applications
+                        and APIs into the Odoo framework.</p>
                 <p class="mt-2">Working on: Odoo V16, V17, V18.</p>
             </div>
             <div class="experience-item">
                 <h3 class="font-bold text-lg">Software Engineer (Odoo - Python developer)</h3>
                 <p class="text-gray-600">Aug 2021 - Oct 2024 | Ogroni Informatix Ltd.</p>
                 <p class="mt-2">Designed and developed custom Odoo modules to streamline
-			business operations.Implemented automation scripts to improve
-			ERP workflows.Provided technical support and maintenance for
-			Odoo-based systems.Conducted database optimization and
-			performance tuning for PostgreSQL.Integrated payment gateways
-			and external APIs to enhance system capabilities.</p>
+                        business operations.Implemented automation scripts to improve
+                        ERP workflows.Provided technical support and maintenance for
+                        Odoo-based systems.Conducted database optimization and
+                        performance tuning for PostgreSQL.Integrated payment gateways
+                        and external APIs to enhance system capabilities.</p>
                 <p class="mt-2">Worked on: Odoo V13, V17, V18.</p>
             </div>
             <div class="experience-item">
                 <h3 class="font-bold text-lg">Software Engineer (Full Stack - Python + React.js)</h3>
                 <p class="text-gray-600">Nov 2018 - July 2021 | Sheraspace</p>
                 <p class="mt-2">Designed and maintained CRM, Sales, Security Management, and
-			Career modules.Developed RESTful APIs using Flask for backend
-			functionality.Built and maintained interactive frontend components
-			using React.js.Managed project deployments and optimized system
-			performance.Led security enhancements to protect sensitive user
-			data.</p>
+                        Career modules.Developed RESTful APIs using Flask for backend
+                        functionality.Built and maintained interactive frontend components
+                        using React.js.Managed project deployments and optimized system
+                        performance.Led security enhancements to protect sensitive user
+                        data.</p>
             </div>
         </section>
         
@@ -305,5 +310,5 @@
             </div>
         </section>
     </div>
-</body>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'936d14d9dc694571',t:'MTc0NTc0MzkyMi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
